@@ -1,0 +1,33 @@
+{
+  "name": "property-amenity-extractor",
+  "version": "1.0.0",
+  "description": "AI-assisted tool for extracting amenities from real estate property descriptions and generating marketing content",
+  "main": "property-amenity-extractor.js",
+  "scripts": {
+    "start": "node property-amenity-extractor.js",
+    "demo": "node property-amenity-extractor.js --demo",
+    "server": "node marketing-server.js",
+    "test": "node test-extractor.js"
+  },
+  "keywords": [
+    "real-estate",
+    "amenities",
+    "nlp",
+    "property",
+    "extraction",
+    "marketing",
+    "ai"
+  ],
+  "author": "ZennTech Real Estate Team",
+  "license": "MIT",
+  "bin": {
+    "amenity-extractor": "./property-amenity-extractor.js"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "groq-sdk": "^0.5.0"
+  }
+}
